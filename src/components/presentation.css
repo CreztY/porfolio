@@ -1,8 +1,8 @@
 .presentationContainer {
     padding-top: 9rem;
     align-content: center;
-    margin-left: 9vw;
-    margin-right: 9vh;
+    margin-left: 15vw;
+    margin-right: 15vh;
 }
 
 .presentation {
@@ -42,12 +42,17 @@
     transition: all 0.3s ease-in-out;
     box-shadow: var(--bg1-shadow);
     color: var(--a1);
+    transform: scale(1);
 }
 
 .presentationButtons button:hover {
     border: 1px solid rgb(0, 0, 0);
     background-color: var(--bg1-hover);
     color: var(--a1-hover);
+}
+
+.presentationButtons button:active {
+    transform: scale(0.95);
 }
 
 .presentationButtons button svg {

@@ -29,6 +29,14 @@ a {
 a:hover {
     color: var(--a1-hover);
 }
-nav a.active {
-  color: red;
+
+[data-theme="light"] {
+    nav a.active {
+      color: rgb(38, 0, 255);
+    }
+}
+[data-theme="dark"] {
+    nav a.active {
+      color: rgb(224, 131, 43);
+    }
 }

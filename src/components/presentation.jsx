@@ -1,13 +1,13 @@
 import './presentation.css'
-import Cv from './icons/cv.jsx'
-import Li from './icons/linkedin.jsx'
+import Cv from '../icons/cv.jsx'
+import Li from '../icons/linkedin.jsx'
 
-function Projects() {
+function Projects () {
   return (
     <>
       <div className='presentationContainer'>
         <div className='presentation'>
-          <img className='presentationImg' src="ivan.jpg" alt="ivan cozar ramos" />
+          <img className='presentationImg' src='ivan.jpg' alt='ivan cozar ramos' />
           <div className='presentationTitle'>Hola, soy iván cozar</div>
         </div>
         <p className='presentationDescription'>
@@ -20,17 +20,18 @@ function Projects() {
         <div className='presentationButtons'>
           <button
             onClick={() => {
-              const link = document.createElement('a');
-              link.href = '/curriculum.pdf';
-              link.download = 'curriculum.pdf';
-              link.click();
-            }}>
+              const link = document.createElement('a')
+              link.href = '/curriculum.pdf'
+              link.download = 'curriculum.pdf'
+              link.click()
+            }}
+          >
             <Cv />
             CV
           </button>
           <button onClick={() => window.open('https://www.linkedin.com/in/ivan-cózar-ramos-a31b47102/', '_blank')}><Li />LinkedIn</button>
         </div>
-      </div >
+      </div>
     </>
   )
 }

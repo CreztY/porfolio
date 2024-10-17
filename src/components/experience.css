@@ -1,0 +1,58 @@
+.experienceContainer {
+    margin-left: 15vw;
+    margin-right: 15vh;
+    user-select: none;
+    text-align: center;
+    align-content: center;
+}
+
+.experienceContainer h1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.jobs-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+@media (max-width: 768px) {
+    .jobs-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.job {
+    background-color: var(--bg1);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: var(--bg1-shadow);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.job:hover {
+    transform: scale(1.05);
+}
+
+.job h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.job p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+
+h1 svg {
+    margin-right: .5rem;
+    transition: color 0.3s ease;
+}
