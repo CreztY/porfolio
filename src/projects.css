@@ -1,0 +1,41 @@
+.projectsContainer {
+    padding-top: 1rem;
+    align-content: center;
+    margin-left: 9vw;
+    margin-right: 9vh;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.project-card {
+    background-color: var(--bg1);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: var(--bg1-shadow);
+    width: 300px;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .project-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .project-icons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+  }
+  
+  .project-icons a {
+    font-size: 1.5rem;
+    transition: color 0.3s;
+  }

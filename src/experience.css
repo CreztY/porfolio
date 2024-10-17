@@ -1,0 +1,15 @@
+.experienceContainer {
+    padding-top: 1rem;
+    align-content: center;
+    margin-left: 9vw;
+    margin-right: 9vh;
+}
+
+.experienceContainer h1 {
+    align-items: center;
+    display: flex;
+}
+
+h1 svg {
+    margin-right: .5rem;
+}

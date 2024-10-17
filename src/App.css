@@ -1,0 +1,37 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.themeToggleButton {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: flex;
+  z-index: 1000;
+}
+
+.themeToggleButton button {
+  border: 1px solid white;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: var(--bg1);
+  box-shadow: var(--bg1-shadow);
+  transition: background-color 0.3s ease;
+}
+
+.themeToggleButton button:hover {
+  background-color: var(--bg1-hover);
+  color: var(--a1-hover);
+  fill: var(--a1-hover);
+}
+
+.themeToggleButton svg {
+  color: var(--a1);
+  fill: var(--a1);
+  width: 24px;
+  height: 24px;
+}

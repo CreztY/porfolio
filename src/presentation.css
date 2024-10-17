@@ -1,0 +1,57 @@
+.presentationContainer {
+    padding-top: 9rem;
+    align-content: center;
+    margin-left: 9vw;
+    margin-right: 9vh;
+}
+
+.presentation {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.presentationImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.presentationTitle {
+    font-size: clamp(10px, 5vw, 30px);
+}
+
+.presentationDescription {
+    font-size: clamp(5px, 2.5vw, 15px);
+}
+
+.presentationButtons {
+    display: flex;
+}
+
+.presentationButtons button {
+    margin: 10px;
+    padding: 7px 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: var(--bg1);
+    backdrop-filter: blur(10px);
+    border: 1px solid white;
+    transition: all 0.3s ease-in-out;
+    box-shadow: var(--bg1-shadow);
+    color: var(--a1);
+}
+
+.presentationButtons button:hover {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: var(--bg1-hover);
+    color: var(--a1-hover);
+}
+
+.presentationButtons button svg {
+    margin-right: .5rem;
+    width: 24px;
+    height: 24px;
+}
