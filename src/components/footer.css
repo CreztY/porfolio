@@ -1,3 +1,15 @@
 .footerContainer {
     margin-left: 15vw;
 }
+
+.footerContainer p {
+    font-size: clamp(10px, 5vw, 15px);
+    align-items: center;
+    display: flex;
+}
+
+.footerContainer svg {
+    margin-left: 0.5rem;
+    width: clamp(10px, 5vw, 15px);
+    height: clamp(10px, 5vw, 15px);
+}

@@ -13,19 +13,19 @@ import Moon from './icons/moon.jsx'
 
 function App () {
   const [theme, setTheme] = useState('light')
-  const [activeSection, setActiveSection] = useState('')
+  const [activeSection, setActiveSection] = useState('presentation')
 
   useEffect(() => {
     const sections = document.querySelectorAll('section')
     const options = {
       root: null,
-      threshold: 0.6 // La cantidad visible antes de activar (60%)
+      threshold: 0.6
     }
 
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
-          setActiveSection(entry.target.id) // Actualiza la sección activa
+          setActiveSection(entry.target.id)
         }
       })
     }, options)
@@ -34,7 +34,6 @@ function App () {
       observer.observe(section)
     })
 
-    // Cleanup al desmontar
     return () => {
       sections.forEach(section => observer.unobserve(section))
     }
@@ -56,11 +55,10 @@ function App () {
     <>
       <Header activeSection={activeSection} />
       <main>
-        {/* <section id='presentation'> */}
-        <section>
+        <section id='presentation'>
           <Presentation />
         </section>
-        <section id='proyects'>
+        <section id='projects'>
           <Projects />
         </section>
         <section id='experience'>
@@ -72,23 +70,23 @@ function App () {
         <section id='contact'>
           <Contactme id='contact' />
         </section>
-        <Footer />
-        <div className='changeStyle'>
-          <div className='themeToggleButton'>
-            {theme === 'light'
-              ? (
-                <button onClick={toggleTheme}>
-                  <Moon />
-                </button>
-                )
-              : (
-                <button onClick={toggleTheme}>
-                  <Sun />
-                </button>
-                )}
-          </div>
-        </div>
       </main>
+      <Footer />
+      <div className='changeStyle'>
+        <div className='themeToggleButton'>
+          {theme === 'light'
+            ? (
+              <button onClick={toggleTheme}>
+                <Moon />
+              </button>
+              )
+            : (
+              <button onClick={toggleTheme}>
+                <Sun />
+              </button>
+              )}
+        </div>
+      </div>
     </>
   )
 }

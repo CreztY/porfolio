@@ -18,9 +18,11 @@ nav {
     backdrop-filter: blur(10px);
     border: 1px solid white;
     box-shadow: var(--bg1-shadow);
+    display: flex;
 }
 
 a {
+    font-size: clamp(5px, 2.5vw, 15px);
     text-decoration: inherit;
     color: var(--a1);
     padding: 8px;

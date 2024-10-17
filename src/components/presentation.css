@@ -3,6 +3,8 @@
     align-content: center;
     margin-left: 15vw;
     margin-right: 15vw;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .presentation {
@@ -26,7 +28,10 @@
 }
 
 .presentationButtons {
+    align-items: center;
     display: flex;
+    justify-content: center;
+
 }
 
 .presentationButtons button {
