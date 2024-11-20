@@ -47,7 +47,6 @@
 .project-card p {
   flex-grow: 1;
   font-size: 1rem;
-  color: var(--a1);
 }
 
 .project-icons {

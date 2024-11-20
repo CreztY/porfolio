@@ -4,7 +4,7 @@ import Experience from './components/experience.jsx'
 import Header from './components/header.jsx'
 import Projects from './components/projects.jsx'
 import Presentation from './components/presentation.jsx'
-import Abautme from './components/abautme.jsx'
+import AboutMe from './components/AboutMe.jsx'
 import Contactme from './components/contactme.jsx'
 import Footer from './components/Footer.jsx'
 
@@ -65,10 +65,10 @@ function App () {
           <Experience />
         </section>
         <section id='about'>
-          <Abautme id='about' />
+          <AboutMe />
         </section>
         <section id='contact'>
-          <Contactme id='contact' />
+          <Contactme />
         </section>
       </main>
       <Footer />

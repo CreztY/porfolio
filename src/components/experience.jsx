@@ -4,39 +4,45 @@ import Job from '../icons/job-logo.jsx'
 function Experience () {
   return (
     <div className='experienceContainer'>
-      <h1><Job />Experiencia laboral</h1>
+      <h1><Job /> Experiencia Laboral</h1>
       <div className='jobs-grid'>
         <div className='job'>
-          <h3>Auxiliar de cocina</h3>
-          <p>- Preparación de alimentos.<br />
-            - Cocción de alimentos.<br />
-            - Atención a los clientes.<br />
-            - Manejo de la caja registradora.<br />
-          </p>
+          <h3>Auxiliar de Cocina</h3>
+          <ul>
+            <li>Preparación de alimentos</li>
+            <li>Cocción de alimentos</li>
+            <li>Atención a los clientes</li>
+            <li>Manejo de la caja registradora</li>
+          </ul>
           <span>Mayo 2021 - Actualidad</span>
         </div>
         <div className='job'>
-          <h3>Gestion de base de datos</h3>
-          <p>- Desgloses de base de datos.</p>
+          <h3>Gestión de Base de Datos</h3>
+          <ul>
+            <li>Desgloses de base de datos</li>
+          </ul>
           <span>Abril 2021 - Mayo 2021</span>
         </div>
         <div className='job'>
-          <h3>Técnico microinformático</h3>
-          <p>- Mantenimiento de sistemas informáticos.<br />
-            - Reparación de pagina web.
-          </p>
-          <span>Oct 2020 - Nov 2020</span>
+          <h3>Técnico Microinformático</h3>
+          <ul>
+            <li>Mantenimiento de sistemas informáticos</li>
+            <li>Reparación de página web</li>
+          </ul>
+          <span>Octubre 2020 - Noviembre 2020</span>
         </div>
         <div className='job'>
-          <h3>Técnico microinformático</h3>
-          <p>- Mantenimiento de sistemas informáticos.<br />
-            - Instalación de sistemas operativos.<br />
-            - Reparación de impresoras.
-          </p>
+          <h3>Técnico Microinformático</h3>
+          <ul>
+            <li>Mantenimiento de sistemas informáticos</li>
+            <li>Instalación de sistemas operativos</li>
+            <li>Reparación de impresoras</li>
+          </ul>
           <span>Marzo 2015 - Junio 2015</span>
         </div>
       </div>
     </div>
+
   )
 }
 

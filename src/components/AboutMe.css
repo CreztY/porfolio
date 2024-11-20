@@ -1,4 +1,4 @@
-.abautContainer {
+.aboutContainer {
     padding-top: 9rem;
     margin-left: 15vw;
     margin-right: 15vw;
@@ -6,7 +6,7 @@
     justify-content: center;
 }
 
-.abautCard {
+.aboutCard {
     padding: 2rem;
     background-color: var(--bg1);
     border-radius: 10px;
@@ -15,21 +15,19 @@
     max-width: 600px;
 }
 
-.abautContainer h1 {
+.aboutContainer h1 {
     font-size: clamp(10px, 5vw, 30px);
     margin-bottom: 1.5rem;
     color: var(--a1);
 }
 
-.abautContainer p {
+.aboutContainer p {
     font-size: clamp(5px, 2.5vw, 20px);
     line-height: 1.8;
     color: var(--a1-hover);
-    text-align: justify;
-    text-justify: inter-word;
 }
 
-.abautContainer svg {
+.aboutContainer svg {
     margin-right: 0.5rem;
     width: clamp(10px, 5vw, 30px);
     height: clamp(10px, 5vw, 30px);

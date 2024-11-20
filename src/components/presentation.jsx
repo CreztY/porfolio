@@ -7,8 +7,8 @@ function Projects () {
     <>
       <div className='presentationContainer'>
         <div className='presentation'>
-          <img className='presentationImg' src='ivan.jpg' alt='ivan cozar ramos' />
-          <div className='presentationTitle'>Hola, soy iván cozar</div>
+          <img className='presentationImg' src='ivan.jpg' alt='Foto de Iván Cozar Ramos' />
+          <div className='presentationTitle'>Hola, soy Iván Cozar</div>
         </div>
         <p className='presentationDescription'>
           Me gustaría postularme para trabajos en programación, gestión de bases de datos y soporte técnico.
