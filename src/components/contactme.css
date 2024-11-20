@@ -69,8 +69,13 @@
     fill: var(--a1);
 }
 
-.socialLinks {
+.socialLink {
     margin-top: 1.5rem;
+}
+
+.socialLinks {
+    display: flex;
+    justify-content: center;
 }
 
 .socialLinks a {
@@ -78,8 +83,15 @@
     color: var(--a1);
     text-decoration: none;
     transition: color 0.3s;
+    display: flex;
+    align-items: center;
 }
 
 .socialLinks a:hover {
     color: var(--a1-hover);
+}
+
+.socialLinks svg {
+    width: 25px;
+    height: 25px;
 }

@@ -12,11 +12,14 @@ function Projects () {
         </div>
         <p className='presentationDescription'>
           Me gustaría postularme para trabajos en programación, gestión de bases de datos y soporte técnico.
-          La informática y la tecnología siempre me han apasionado, por eso me he formado tanto en estudios
-          formales como de manera autodidacta. Tengo conocimientos en varios lenguajes de programación,
-          administración de bases de datos y resolución de problemas técnicos. Estoy muy motivado para aplicar
-          y seguir aprendiendo en un entorno profesional, ya que soy un entusiasta de la tecnología y aprendo rápido.
         </p>
+        <p className='presentationDescription'>
+          La informática y la tecnología siempre me han apasionado, por eso me he formado tanto en estudios formales como de manera autodidacta. Tengo conocimientos en varios lenguajes de programación, administración de bases de datos y resolución de problemas técnicos.
+        </p>
+        <p className='presentationDescription'>
+          Estoy muy motivado para aplicar y seguir aprendiendo en un entorno profesional, ya que soy un entusiasta de la tecnología y aprendo rápido.
+        </p>
+
         <div className='presentationButtons'>
           <button
             onClick={() => {
