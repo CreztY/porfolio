@@ -57,7 +57,7 @@ npm run dev
 
 -Modo claro
 
-![App Screenshot 2](https://raw.githubusercontent.com/CreztY/porfolio/refs/heads/main/Preview/image2.png)
+![App Screenshot 2](https://raw.githubusercontent.com/CreztY/porfolio/refs/heads/main/Preview/image4.png)
 
 - Smartphone
 
