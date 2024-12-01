@@ -51,7 +51,11 @@ npm run dev
 
 - [Vista previa en github pages](https://crezty.github.io/porfolio/)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot 1](https://raw.githubusercontent.com/CreztY/porfolio/refs/heads/main/Preview/image1.png)
+
+![App Screenshot 2](https://raw.githubusercontent.com/CreztY/porfolio/refs/heads/main/Preview/image2.png)
+
+![App Screenshot 3](https://raw.githubusercontent.com/CreztY/porfolio/refs/heads/main/Preview/image3.png)
 
 
 ##  📞 Contacto
