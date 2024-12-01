@@ -22,6 +22,7 @@ function App () {
       threshold: 0.6
     }
 
+    // eslint-disable-next-line
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
