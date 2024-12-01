@@ -1,7 +1,13 @@
 
-# Ivan cozar porfolio
+# porfolio programador | Iván Cozar
 
 ¡Bienvenido a mi portafolio! Este proyecto refleja mi experiencia, habilidades y proyectos destacados. Está desarrollado con React para ofrecer una experiencia visual atractiva y funcional.
+
+Hacer un porfolio es algo que muchas veces no es facil, y creo que darle un toque creativo, hace que sea diferente del resto.
+
+Os dejo aqui toda la informacion para que podais descargaros este proyecto y lo puedas usar como gustes.
+
+Este proyecto está basado en mi experiencia en programacion de fivem, streamelements, y en mi experiencia en desarrollo de videojuegos con Unity.
 
 
 ## 🚀 **Características principales**
