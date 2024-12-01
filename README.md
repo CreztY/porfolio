@@ -49,6 +49,8 @@ npm run dev
 5. Abre http://localhost:3000 en tu navegador.
 ## 🖼️ Vista previa
 
+- [Vista previa en github pages](https://crezty.github.io/porfolio/)
+
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 
