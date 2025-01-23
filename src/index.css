@@ -28,6 +28,7 @@
     0 0 20px rgba(219,177,246,1);
   --a1: #1f2937e6;
   --a1-hover: #2530f3;
+  --banner-color: #d69f27;
 }
 
 [data-theme="dark"] {
@@ -41,6 +42,7 @@
     0 0 20px rgba(154, 0, 255, 1);
   --a1: #fff;
   --a1-hover: #535bf2;
+  --banner-color: #ffff3c;
 }
 
 body {

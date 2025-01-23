@@ -64,3 +64,14 @@
 .project-icons a:hover {
   color: var(--a1-hover);
 }
+
+.pryject-link-preview {
+  display: flex;
+  align-items: center;
+}
+
+.pryject-link-preview svg {
+  margin-left: 0.5rem;
+  width: 1.25rem;
+  height: 1.25rem;
+}

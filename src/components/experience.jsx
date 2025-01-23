@@ -1,5 +1,5 @@
-import './experience.css'
 import Job from '../icons/job-logo.jsx'
+import './experience.css'
 
 function Experience () {
   return (
@@ -15,6 +15,7 @@ function Experience () {
             <li>Manejo de la caja registradora</li>
           </ul>
           <span>Mayo 2021 - Actualidad</span>
+          <div className='actual-job-banner'>Actual</div>
         </div>
         <div className='job'>
           <h3>Gestión de Base de Datos</h3>

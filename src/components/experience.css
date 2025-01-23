@@ -26,6 +26,7 @@
 }
 
 .job {
+    position: relative;
     background-color: var(--bg1);
     padding: 1rem;
     border-radius: 10px;
@@ -66,4 +67,15 @@
 h1 svg {
     margin-right: .5rem;
     transition: color 0.3s ease;
+}
+
+.actual-job-banner {
+    position: absolute;
+    right: 1rem;
+    background-color: var(--bg1);
+    padding: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px var(--banner-color);
+    font-size: 1rem;
+    color: var(--banner-color);
 }
