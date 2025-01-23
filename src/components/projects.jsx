@@ -4,6 +4,18 @@ import Github from '../icons/github.jsx'
 function Projects () {
   const projects = [
     {
+      title: 'streamly deck',
+      description: 'Streamly Deck es un control para OBS Studio que permite a los usuarios crear y personalizar botones y acciones para controlar la aplicación y la transmisión de video.',
+      imageUrl: 'https://i.ibb.co/wLJHyFB/Captura-de-pantalla-2025-01-23-184144.png',
+      liveUrl: 'http://streamly-deck.com/'
+    },
+    {
+      title: 'Trivia Masters',
+      description: 'Juego de preguntas y respuestas para jugar con amigos y familiares. Creado con React y Node.js.',
+      imageUrl: 'https://i.ibb.co/wLJHyFB/Captura-de-pantalla-2025-01-23-184144.png',
+      liveUrl: 'https://trivia-master-web.vercel.app/'
+    },
+    {
       title: 'StreamElements',
       description: 'Diseño y desarrollo de overlays personalizados para transmisiones en vivo, adaptados a las necesidades de clientes y streamers.\nIntegración de elementos interactivos y visualmente atractivos utilizando herramientas de StreamElements.',
       imageUrl: 'https://www.dexerto.com/cdn-image/wp-content/uploads/2021/09/22/StreamElements-Logo.jpg?width=768&quality=60&format=auto'
@@ -14,11 +26,6 @@ function Projects () {
       title: 'FiveM',
       description: 'Más de 50 proyectos de desarrollo en la plataforma FiveM, especializándome en la creación de servidores de roleplay personalizados.\nImplementación de scripts complejos, sistemas de juego inmersivos y optimización del rendimiento del servidor.',
       imageUrl: 'https://logos-world.net/wp-content/uploads/2021/03/FiveM-Logo-700x394.png'
-    },
-    {
-      title: 'Unity',
-      description: 'Experiencia en desarrollo de videojuegos utilizando Unity durante varios años.\nProgramación de mecánicas de juego, diseño de niveles interactivos y creación de prototipos de videojuegos 2D y 3D.',
-      imageUrl: 'https://seeklogo.com/images/U/unity-logo-555C5D1D7E-seeklogo.com.png'
     }
   ]
 
